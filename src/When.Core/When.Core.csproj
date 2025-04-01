@@ -28,6 +28,7 @@
 	<DebugType>embedded</DebugType>
 	<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 	<PackageProjectUrl>https://github.com/code-dispenser/When</PackageProjectUrl>
+	<Authors>Paul Kent</Authors>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0|AnyCPU'">
