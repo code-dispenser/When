@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+	<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
@@ -12,7 +12,19 @@
     <PackageIcon>icon-64.png</PackageIcon>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <FileVersion>1.0.0</FileVersion>
+	<PackageVersion>1.0.0</PackageVersion>
+	<InformationalVersion>1.0.0</InformationalVersion>
     <PackageTags>C#; .NET; Boolean; Extension-Methods; Asynchronous; Synchronous; Conditional-Execution; ValueTask; Task</PackageTags>
+    <Title>When</Title>
+    <Version>1.0.0</Version>
+    <RepositoryUrl>https://github.com/code-dispenser/When</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	<RepositoryType></RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<Deterministic>true</Deterministic>
+	<PackageProjectUrl>https://github.com/code-dispenser/When</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0|AnyCPU'">
@@ -37,6 +49,14 @@
 
   <ItemGroup>
     <None Include="..\..\assets\icon-64.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
