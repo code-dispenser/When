@@ -7,7 +7,7 @@
 <img src="https://raw.githubusercontent.com/code-dispenser/When/main/assets/icon-64.png" align="center" alt="When icon" /> When
 </h1>
 <!--
-# ![icon](https://raw.githubusercontent.com/code-dispenser/When/main/assets/icon-64.png) Conditionals
+# ![icon](https://raw.githubusercontent.com/code-dispenser/When/main/assets/icon-64.png) When
 -->
 <!-- H1 for git hub, but for nuget the markdown is fine as it centers the image, uncomment as appropriate and do the same at the bottom of this file for the icon author -->
 
@@ -21,8 +21,8 @@
 - **Asynchronous Support:** Handle asynchronous tasks with `Task` and `ValueTask` return types, facilitating seamless integration with modern async programming patterns.
 
 
-- ## Example Usage
-- 
+## Example Usage
+ 
 If you hate how this codes looks
 
 ```csharp
@@ -49,6 +49,7 @@ public void DoSomething(bool condition)
 
 because you really want to write code like
 ```csharp
+using When.Core.Extensions;
 
 public async Task DoSomething(bool condition)
 
